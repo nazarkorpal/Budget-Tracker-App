@@ -1,0 +1,12 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.intro{
+    font-size: 150px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Colonna MT";
+}

@@ -1,0 +1,6 @@
+export const Constants = {
+    LOAD_NOTES: "LOAD_NOTES",
+    CREATE_NOTE:"CREATE_NOTE",
+    DELETE_NOTE: "DELETE_NOTE",
+    PATCH_NOTE: "PATCH_NOTE"
+}

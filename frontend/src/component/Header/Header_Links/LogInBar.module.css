@@ -1,0 +1,17 @@
+.logIn{
+    padding: 5px 5px 10px 5px;
+    font-size: 30px;
+    transition: 0.4s;
+    border-radius: 20px;
+    color: black;
+}
+
+.logIn:hover{
+    color: white;
+    background: black;
+}
+.wrapper{
+    margin-right: 10px;
+    border-radius: 30px;
+    color: #3D3D5A;
+}
