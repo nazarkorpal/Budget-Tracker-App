@@ -1,9 +1,9 @@
-require("dotenv").config()
 const express = require("express")
 const connectDB = require("./config/db")
 
 connectDB()
 const app = express()
+app.use(express.static("public"))
 app.use(express.json({ extended: true }))
 app.use("/api/auth", require("./routes/userAuthRoutes"))
 app.use("/api/note", require("./routes/notesRoutes"))
